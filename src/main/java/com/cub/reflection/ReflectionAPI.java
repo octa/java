@@ -77,6 +77,9 @@ public class ReflectionAPI {
         int value = Integer.valueOf((Integer) field.get(modelClass2));
         String value1 = (String) field1.get(modelClass2);
 
+        // Set the value of a Field
+        field1.set(modelClass2, "Hi");
+
 
     }
 
