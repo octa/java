@@ -5,6 +5,15 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import java.util.Hashtable;
 
+/*
+
+1. Define properties for InitialContext
+2. Create InitialConext
+3. Lookup the JNDI registry
+4. Close
+
+ */
+
 public class JNDIClient {
 
     public static void main(String[] args) throws NamingException {
